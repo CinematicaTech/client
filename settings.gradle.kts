@@ -14,4 +14,8 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Cinematica"
-include(":app")
+
+include(
+    ":platform:android",
+    ":platform:desktop",
+)
