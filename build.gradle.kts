@@ -1,9 +1,20 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-@Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
-    alias(libs.plugins.androidApplication) apply false
-    alias(libs.plugins.kotlinAndroid) apply false
-    alias(libs.plugins.androidLibrary) apply false
-    alias(libs.plugins.org.jetbrains.kotlin.jvm) apply false
+    alias(libs.plugins.kotlin.multiplatform) apply false
+    alias(libs.plugins.kotlin.jvm) apply false
+    alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.parcelize) apply false
+    alias(libs.plugins.compose.multiplatform) apply false
 }
-true // Needed to make the Suppress annotation work for the plugins block
+
+allprojects {
+    tasks.withType<KotlinCompile> {
+        kotlinOptions {
+            jvmTarget = "19"
+            apiVersion = "1.9"
+            languageVersion = "1.9"
+        }
+    }
+}
