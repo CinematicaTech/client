@@ -19,7 +19,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "Cinematica"
 
+includeBuild("build-plugins/configurations")
+
 include(
     ":platform:android",
     ":platform:desktop",
 )
+include(":style-system")

@@ -10,6 +10,7 @@ android-target = "34"
 android-min = "24"
 koin = "3.4.2"
 koin-annotations = "1.2.2"
+moko-resources = "0.23.0"
 
 [libraries]
 kotlinx-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
@@ -18,12 +19,12 @@ kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.
 
 androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "androidComposeVersion" }
 androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidComposeVersion" }
-androidx-compose-material3 = { module = "androidx.compose.material3:material3", version.require = "1.1.1" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3", version.require = "1.2.0-alpha04" }
 androidx-compose-icons = { module = "androidx.compose.material:material-icons-core", version.ref = "androidComposeVersion" }
 androidx-compose-extendedIcons = { module = "androidx.compose.material:material-icons-extended", version.ref = "androidComposeVersion" }
 androidx-compose-activity = { module = "androidx.activity:activity-compose", version.require = "1.8.0-alpha06" }
 androidx-compose-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidComposeVersion" }
-compose-accompanist-systemUiController = { module = "com.google.accompanist:accompanist-systemuicontroller", version.require = "0.28.0" }
+compose-accompanist-systemUiController = { module = "com.google.accompanist:accompanist-systemuicontroller", version.require = "0.31.6-rc" }
 
 androidx-lifecycle = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.require = "2.6.1" }
 
@@ -39,6 +40,9 @@ kotlin-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.
 android-gradle-plugin = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePlugin" }
 compose-multiplatform-plugin = { module = "org.jetbrains.compose:compose-gradle-plugin", version.ref = "jetbrainsCompose" }
 
+moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
+moko-resources-compose = { module = "dev.icerock.moko:resources-compose", version.ref = "moko-resources" }
+
 [plugins]
 kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
@@ -50,3 +54,6 @@ android-application = { id = "com.android.library", version.ref = "androidGradle
 compose-multiplatform = { id = "org.jetbrains.compose", version.ref = "jetbrainsCompose" }
 koin-configuration = { id = "koin-configuration", version.require = "SNAPSHOT" }
 kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+configurations-multiplatform-library = { id = "multiplatform-library-convention", version.require = "SNAPSHOT" }
+configurations-compose-multiplatform = { id = "compose-multiplatform-convention", version.require = "SNAPSHOT" }
+moko-multiplatform-resources = { id = "dev.icerock.mobile.multiplatform-resources", version.ref = "moko-resources" }

@@ -4,14 +4,27 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/build-plugins/configurations" name="configurations">
+                <projects>
+                  <project path="$PROJECT_DIR$/build-plugins/configurations" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="corretto-19" />
+        <option name="gradleJvm" value="19" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/build-plugins/configurations" />
             <option value="$PROJECT_DIR$/platform" />
             <option value="$PROJECT_DIR$/platform/android" />
             <option value="$PROJECT_DIR$/platform/desktop" />
+            <option value="$PROJECT_DIR$/style-system" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
