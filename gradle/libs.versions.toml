@@ -3,8 +3,8 @@ kotlin = "1.9.0"
 kotlinx-coroutines = "1.7.2"
 kotlinx-serialization = "1.5.1"
 androidGradlePlugin = "8.1.0"
-androidComposeVersion = "2.6.1"
-jetpackComposeCompilerVersion = "1.4.6"
+androidComposeVersion = "1.4.3"
+jetpackComposeCompilerVersion = "1.5.1"
 jetbrainsCompose = "1.4.3"
 android-target = "34"
 android-min = "24"
@@ -18,7 +18,7 @@ kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.
 
 androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "androidComposeVersion" }
 androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidComposeVersion" }
-androidx-compose-material3 = { module = "androidx.compose.material3:material3", version.require = "1.2.0-alpha04" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3", version.require = "1.1.1" }
 androidx-compose-icons = { module = "androidx.compose.material:material-icons-core", version.ref = "androidComposeVersion" }
 androidx-compose-extendedIcons = { module = "androidx.compose.material:material-icons-extended", version.ref = "androidComposeVersion" }
 androidx-compose-activity = { module = "androidx.activity:activity-compose", version.require = "1.8.0-alpha06" }
