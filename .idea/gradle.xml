@@ -31,6 +31,8 @@
             <option value="$PROJECT_DIR$/platform" />
             <option value="$PROJECT_DIR$/platform/android" />
             <option value="$PROJECT_DIR$/platform/desktop" />
+            <option value="$PROJECT_DIR$/preview" />
+            <option value="$PROJECT_DIR$/preview/feature" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

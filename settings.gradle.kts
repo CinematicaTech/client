@@ -26,6 +26,10 @@ include(
 )
 
 include(
+    ":preview:feature",
+)
+
+include(
     ":platform:android",
     ":platform:desktop",
 )
@@ -33,5 +37,5 @@ include(
 include(
     ":feature:authorization:presentation",
     ":feature:authorization:domain",
-    ":feature:authorization:dependencies"
+    ":feature:authorization:dependencies",
 )

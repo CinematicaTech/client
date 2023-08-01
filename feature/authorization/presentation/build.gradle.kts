@@ -13,5 +13,7 @@ dependencies {
     // commonMainImplementation(projects.styleSystem)
 
     // commonTestImplementation(projects.foundation.random)
+    debugImplementation(libs.androidx.compose.tooling)
+    commonMainImplementation(libs.androidx.compose.preview)
 }
 
