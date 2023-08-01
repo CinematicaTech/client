@@ -22,7 +22,16 @@ rootProject.name = "Cinematica"
 includeBuild("build-plugins/configurations")
 
 include(
+    ":foundation:viewmodel",
+)
+
+include(
     ":platform:android",
     ":platform:desktop",
 )
-include(":style-system")
+
+include(
+    ":feature:authorization:presentation",
+    ":feature:authorization:domain",
+    ":feature:authorization:dependencies"
+)

@@ -6,7 +6,9 @@ plugins {
     alias(libs.plugins.android.library) apply false
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.kotlin.parcelize) apply false
+    alias(libs.plugins.ksp) apply false
     alias(libs.plugins.compose.multiplatform) apply false
+    id(libs.plugins.configurations.multiplatform.library.get().pluginId) apply false
 }
 
 allprojects {

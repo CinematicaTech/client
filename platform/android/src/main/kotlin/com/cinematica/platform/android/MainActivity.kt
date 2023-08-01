@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MaterialTheme {
-                Text(text = "Hello Android")
+                Text(text = "Hello Android@")
             }
         }
     }
