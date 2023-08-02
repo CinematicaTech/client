@@ -7,7 +7,7 @@ import androidx.compose.ui.window.application
 fun main() {
     application {
         Window(onCloseRequest = ::exitApplication) {
-            Text("Hello Desktop 1!")
+            Text("Hello Desktop 12!")
         }
     }
 }

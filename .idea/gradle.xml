@@ -33,6 +33,7 @@
             <option value="$PROJECT_DIR$/platform/desktop" />
             <option value="$PROJECT_DIR$/preview" />
             <option value="$PROJECT_DIR$/preview/feature" />
+            <option value="$PROJECT_DIR$/style-system" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

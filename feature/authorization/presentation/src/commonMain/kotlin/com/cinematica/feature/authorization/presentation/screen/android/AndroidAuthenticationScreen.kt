@@ -20,6 +20,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.cinematica.style.system.appbar.AppBar
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -37,17 +38,17 @@ fun AndroidAuthorizationScreen() {
 //                verticalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterVertically),
 //                horizontalAlignment = Alignment.CenterHorizontally,
 //            ) {
-//                val supportText = when {
-//                    state.isEmailInvalid -> LocalStrings.current.emailIsInvalid
-//                    state.isEmailLengthSizeInvalid -> LocalStrings.current.emailSizeIsInvalid
-//                    else -> null
-//                }
+////                val supportText = when {
+////                    state.isEmailInvalid -> LocalStrings.current.emailIsInvalid
+////                    state.isEmailLengthSizeInvalid -> LocalStrings.current.emailSizeIsInvalid
+////                    else -> null
+////                }
 //
 //                OutlinedTextField(
 //                    modifier = Modifier.fillMaxWidth(),
 //                    leadingIcon = { Icon(Icons.Outlined.Email, contentDescription = null) },
 //                    value = state.email,
-//                    onValueChange = { stateMachine.dispatchEvent(Event.EmailChange(it)) },
+//                    onValueChange = { },
 //                    label = { Text(LocalStrings.current.email) },
 //                    isError = state.isEmailInvalid || state.isEmailLengthSizeInvalid,
 //                    supportingText = { if (supportText != null) Text(supportText) },

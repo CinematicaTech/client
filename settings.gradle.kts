@@ -39,3 +39,4 @@ include(
     ":feature:authorization:domain",
     ":feature:authorization:dependencies",
 )
+include(":style-system")

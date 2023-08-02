@@ -10,7 +10,7 @@ dependencies {
     // commonMainImplementation(projects.styleSystem)
     commonMainImplementation(projects.feature.authorization.domain)
 
-    // commonMainImplementation(projects.styleSystem)
+    commonMainImplementation(projects.styleSystem)
 
     // commonTestImplementation(projects.foundation.random)
     debugImplementation(libs.androidx.compose.tooling)
