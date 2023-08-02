@@ -30,6 +30,14 @@ include(
 )
 
 include(
+    ":style-system",
+)
+
+include(
+    ":localization",
+)
+
+include(
     ":platform:android",
     ":platform:desktop",
 )
@@ -39,4 +47,3 @@ include(
     ":feature:authorization:domain",
     ":feature:authorization:dependencies",
 )
-include(":style-system")

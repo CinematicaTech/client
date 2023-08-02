@@ -28,6 +28,7 @@
             <option value="$PROJECT_DIR$/feature/authorization/presentation" />
             <option value="$PROJECT_DIR$/foundation" />
             <option value="$PROJECT_DIR$/foundation/viewmodel" />
+            <option value="$PROJECT_DIR$/localization" />
             <option value="$PROJECT_DIR$/platform" />
             <option value="$PROJECT_DIR$/platform/android" />
             <option value="$PROJECT_DIR$/platform/desktop" />
