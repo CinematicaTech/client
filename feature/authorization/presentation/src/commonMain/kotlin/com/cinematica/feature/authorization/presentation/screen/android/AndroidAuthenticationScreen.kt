@@ -25,6 +25,7 @@ import com.cinematica.style.system.appbar.AppBar
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AndroidAuthorizationScreen() {
+    Text("Hello")
 //    Scaffold(
 //        topBar = {
 //            AppBar(

@@ -27,6 +27,7 @@ include(
 
 include(
     ":preview:feature",
+    ":preview:style-system",
 )
 
 include(

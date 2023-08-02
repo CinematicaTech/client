@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.cinematica.preview.feature"
+    namespace = "com.cinematica.preview.style.system"
     compileSdk = 34
     defaultConfig.minSdk = 24
 
@@ -21,5 +21,5 @@ android {
 dependencies {
     debugImplementation(libs.androidx.compose.tooling)
     implementation(libs.androidx.compose.preview)
-    implementation(projects.feature.authorization.presentation)
+    implementation(projects.styleSystem)
 }
