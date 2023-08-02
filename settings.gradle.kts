@@ -22,12 +22,7 @@ rootProject.name = "Cinematica"
 includeBuild("build-plugins/configurations")
 
 include(
-    ":foundation:viewmodel",
-)
-
-include(
-    ":preview:feature",
-    ":preview:style-system",
+    ":navigation",
 )
 
 include(
@@ -36,6 +31,15 @@ include(
 
 include(
     ":localization",
+)
+
+include(
+    ":foundation:viewmodel",
+)
+
+include(
+    ":preview:feature",
+    ":preview:style-system",
 )
 
 include(
