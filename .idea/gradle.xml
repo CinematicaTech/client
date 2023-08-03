@@ -28,6 +28,7 @@
             <option value="$PROJECT_DIR$/feature/authorization/presentation" />
             <option value="$PROJECT_DIR$/foundation" />
             <option value="$PROJECT_DIR$/foundation/mvi" />
+            <option value="$PROJECT_DIR$/foundation/mvi/koin-compose" />
             <option value="$PROJECT_DIR$/foundation/viewmodel" />
             <option value="$PROJECT_DIR$/localization" />
             <option value="$PROJECT_DIR$/navigation" />

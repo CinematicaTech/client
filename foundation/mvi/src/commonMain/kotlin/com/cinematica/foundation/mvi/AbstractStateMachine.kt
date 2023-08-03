@@ -1,7 +1,5 @@
 package com.cinematica.foundation.mvi
 
-import io.timemates.app.foundation.mvi.UiEvent
-import io.timemates.app.foundation.mvi.UiState
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.flow.MutableStateFlow

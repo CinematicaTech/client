@@ -1,7 +1,5 @@
 package com.cinematica.foundation.mvi
 
-import io.timemates.app.foundation.mvi.UiState
-
 /**
  * Middleware is an interface that represents a component in the Model-View-Intent (MVI) architecture
  * responsible for intercepting effects and performing side effects based on those effects.

@@ -34,10 +34,6 @@ include(
 )
 
 include(
-    ":foundation:viewmodel",
-)
-
-include(
     ":preview:feature",
     ":preview:style-system",
 )
@@ -48,8 +44,13 @@ include(
 )
 
 include(
+    ":foundation:viewmodel",
+    ":foundation:mvi",
+    ":foundation:mvi:koin-compose",
+)
+
+include(
     ":feature:authorization:presentation",
     ":feature:authorization:domain",
     ":feature:authorization:dependencies",
 )
-include(":foundation:mvi")

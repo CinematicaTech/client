@@ -1,4 +1,4 @@
-package io.timemates.app.foundation.mvi
+package com.cinematica.foundation.mvi
 
 /**
  * Interface-marker for states that used by UI.

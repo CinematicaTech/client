@@ -5,15 +5,13 @@ plugins {
 
 dependencies {
     // commonMainImplementation(projects.feature.common.presentation)
-    // commonMainImplementation(libs.timemates.sdk)
-    // commonMainApi(projects.foundation.mvi)
-    // commonMainImplementation(projects.styleSystem)
-    commonMainImplementation(projects.feature.authorization.domain)
-
+    commonMainApi(projects.foundation.mvi)
     commonMainImplementation(projects.styleSystem)
-
     // commonTestImplementation(projects.foundation.random)
     debugImplementation(libs.androidx.compose.tooling)
     commonMainImplementation(libs.androidx.compose.preview)
-}
 
+    commonMainImplementation(projects.styleSystem)
+    commonMainImplementation(projects.feature.authorization.domain)
+    commonMainImplementation(projects.localization)
+}
