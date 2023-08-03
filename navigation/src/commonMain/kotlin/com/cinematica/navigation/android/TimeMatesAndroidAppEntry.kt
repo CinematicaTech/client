@@ -36,7 +36,9 @@ fun TimeMatesAndroidAppEntry(
         animation = stackAnimation(fade() + scale()),
     ) { screen ->
         when (screen) {
-            Screen.AuthorizationScreen -> AndroidAuthorizationScreen()
+            Screen.AuthorizationScreen -> AndroidAuthorizationScreen(
+                onNavigateToFilms = { }
+            )
 //            Screen.AuthorizationScreen -> StartAuthorizationScreen(
 //                stateMachine = stateMachine(),
 //                onNavigateToConfirmation = {

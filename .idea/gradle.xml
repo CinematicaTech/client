@@ -31,6 +31,7 @@
             <option value="$PROJECT_DIR$/foundation/mvi/koin-compose" />
             <option value="$PROJECT_DIR$/foundation/viewmodel" />
             <option value="$PROJECT_DIR$/localization" />
+            <option value="$PROJECT_DIR$/localization/compose" />
             <option value="$PROJECT_DIR$/navigation" />
             <option value="$PROJECT_DIR$/platform" />
             <option value="$PROJECT_DIR$/platform/android" />

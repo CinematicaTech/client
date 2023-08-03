@@ -7,5 +7,5 @@ import com.cinematica.feature.authorization.presentation.screen.android.AndroidA
 @Composable
 @Preview(showBackground = true)
 fun PreviewAndroidAuthorizationScreen() {
-    AndroidAuthorizationScreen()
+    AndroidAuthorizationScreen {}
 }

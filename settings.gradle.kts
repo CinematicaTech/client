@@ -31,6 +31,7 @@ include(
 
 include(
     ":localization",
+    ":localization:compose",
 )
 
 include(

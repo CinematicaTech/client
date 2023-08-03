@@ -4,14 +4,11 @@ plugins {
 }
 
 dependencies {
-    // commonMainImplementation(projects.feature.common.presentation)
     commonMainApi(projects.foundation.mvi)
     commonMainImplementation(projects.styleSystem)
-    // commonTestImplementation(projects.foundation.random)
-    debugImplementation(libs.androidx.compose.tooling)
-    commonMainImplementation(libs.androidx.compose.preview)
+    commonMainImplementation(projects.feature.authorization.domain)
 
     commonMainImplementation(projects.styleSystem)
-    commonMainImplementation(projects.feature.authorization.domain)
     commonMainImplementation(projects.localization)
+    commonMainImplementation(projects.localization.compose)
 }
