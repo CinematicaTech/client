@@ -20,11 +20,11 @@ private fun AppBarPreview() {
     AppTheme {
         Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
             AppBar(
-                title = "TimeMates",
+                title = "Cinematica",
             )
 
             AppBar(
-                title = "TimeMates",
+                title = "Cinematica",
                 navigationIcon = {
                     IconButton(
                         onClick = {},
@@ -35,7 +35,7 @@ private fun AppBarPreview() {
             )
 
             AppBar(
-                title = "TimeMates",
+                title = "Cinematica",
                 navigationIcon = {
                     IconButton(
                         onClick = {},

@@ -1,4 +1,4 @@
-package com.cinematica.navigation
+package com.cinematica.navigation.common
 
 import com.arkivanov.essenty.parcelable.Parcelable
 import com.arkivanov.essenty.parcelable.Parcelize

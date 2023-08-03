@@ -1,4 +1,4 @@
-package com.cinematica.navigation
+package com.cinematica.navigation.android
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -10,6 +10,8 @@ import com.arkivanov.decompose.extensions.compose.jetbrains.stack.animation.stac
 import com.arkivanov.decompose.router.stack.StackNavigation
 import com.arkivanov.decompose.router.stack.push
 import com.cinematica.feature.authorization.presentation.screen.android.AndroidAuthorizationScreen
+import com.cinematica.navigation.common.ChildStack
+import com.cinematica.navigation.common.Screen
 import com.cinematica.style.system.theme.AppTheme
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.consumeEach

@@ -52,3 +52,4 @@ include(
     ":feature:authorization:domain",
     ":feature:authorization:dependencies",
 )
+include(":foundation:mvi")
