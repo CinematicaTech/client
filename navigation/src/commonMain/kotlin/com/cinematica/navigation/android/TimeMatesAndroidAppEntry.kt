@@ -17,7 +17,7 @@ import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.consumeEach
 
 @Composable
-fun TimeMatesAndroidAppEntry(
+fun CinematicaAndroidAppEntry(
     navigation: StackNavigation<Screen> = remember { StackNavigation() },
     initialScreen: Screen = Screen.AuthorizationScreen,
     isDarkTheme: Boolean = false,

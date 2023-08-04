@@ -43,4 +43,14 @@ dependencies {
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.foundation)
     implementation(libs.androidx.compose.material3)
+
+    implementation(libs.android.multidex)
+
+    implementation(libs.decompose)
+    implementation(libs.decompose.jetbrains.compose)
+
+    implementation(libs.compose.accompanist.systemUiController)
+
+    implementation(projects.styleSystem)
+    implementation(projects.navigation)
 }
