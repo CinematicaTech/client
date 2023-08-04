@@ -37,7 +37,7 @@ fun CinematicaAndroidAppEntry(
     ) { screen ->
         when (screen) {
             Screen.AuthorizationScreen -> AndroidAuthorizationScreen(
-                onNavigateToFilms = { }
+                onNavigateToWatching = { }
             )
 //            Screen.AuthorizationScreen -> StartAuthorizationScreen(
 //                stateMachine = stateMachine(),
