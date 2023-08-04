@@ -22,6 +22,10 @@ rootProject.name = "Cinematica"
 includeBuild("build-plugins/configurations")
 
 include(
+    ":preview",
+)
+
+include(
     ":navigation",
 )
 
@@ -32,11 +36,6 @@ include(
 include(
     ":localization",
     ":localization:compose",
-)
-
-include(
-    ":preview:feature",
-    ":preview:style-system",
 )
 
 include(

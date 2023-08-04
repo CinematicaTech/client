@@ -37,8 +37,6 @@
             <option value="$PROJECT_DIR$/platform/android" />
             <option value="$PROJECT_DIR$/platform/desktop" />
             <option value="$PROJECT_DIR$/preview" />
-            <option value="$PROJECT_DIR$/preview/feature" />
-            <option value="$PROJECT_DIR$/preview/style-system" />
             <option value="$PROJECT_DIR$/style-system" />
           </set>
         </option>

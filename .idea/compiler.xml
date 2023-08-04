@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="11">
       <module name="Cinematica.commonMain" target="19" />
+      <module name="Cinematica.preview.feature" target="19" />
+      <module name="Cinematica.preview.style-system" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>
