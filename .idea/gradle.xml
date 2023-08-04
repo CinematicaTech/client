@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/build-plugins/configurations" />
             <option value="$PROJECT_DIR$/feature" />
             <option value="$PROJECT_DIR$/feature/authorization" />
+            <option value="$PROJECT_DIR$/feature/authorization/data" />
             <option value="$PROJECT_DIR$/feature/authorization/dependencies" />
             <option value="$PROJECT_DIR$/feature/authorization/domain" />
             <option value="$PROJECT_DIR$/feature/authorization/presentation" />

@@ -53,4 +53,5 @@ include(
     ":feature:authorization:presentation",
     ":feature:authorization:domain",
     ":feature:authorization:dependencies",
+    ":feature:authorization:data"
 )
