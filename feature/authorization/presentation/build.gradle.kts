@@ -4,11 +4,10 @@ plugins {
 }
 
 dependencies {
-    commonMainApi(projects.foundation.mvi)
-    commonMainImplementation(projects.styleSystem)
-    commonMainImplementation(projects.feature.authorization.domain)
+    api(projects.foundation.mvi)
+    implementation(projects.styleSystem)
+    implementation(projects.feature.authorization.domain)
 
-    commonMainImplementation(projects.styleSystem)
-    commonMainImplementation(projects.localization)
-    commonMainImplementation(projects.localization.compose)
+    implementation(projects.localization)
+    implementation(projects.localization.compose)
 }

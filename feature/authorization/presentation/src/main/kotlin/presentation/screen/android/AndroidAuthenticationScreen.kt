@@ -1,13 +1,12 @@
 package com.cinematica.feature.authorization.presentation.screen.android
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -15,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -22,8 +22,8 @@ import androidx.compose.ui.unit.sp
 import com.cinematica.localization.compose.LocalStrings
 import com.cinematica.style.system.appbar.AppBar
 import com.cinematica.style.system.button.ButtonWithProgress
+import com.cinematica.ui.R
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AndroidAuthorizationScreen(
     onNavigateToWatching: () -> Unit
@@ -41,14 +41,13 @@ fun AndroidAuthorizationScreen(
             contentAlignment = Alignment.Center
         ) {
             Column(
-                modifier = Modifier.fillMaxHeight().fillMaxWidth().padding(bottom = 16.dp),
+                modifier = Modifier.fillMaxSize().padding(bottom = 40.dp),
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                // Icon(painter = painterResource(Resources))
-
+                Image(painter = painterResource(id = R.drawable.icon_authentication), contentDescription = "")
                 Text(
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier.fillMaxWidth().padding(top = 4.dp),
                     text = strings.authorizationAppDescription,
                     color = Color.Black,
                     textAlign = TextAlign.Center,
