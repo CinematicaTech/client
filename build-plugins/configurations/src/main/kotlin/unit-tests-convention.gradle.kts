@@ -17,7 +17,7 @@ kotlin {
 }
 
 dependencies {
-    commonTestImplementation("org.jetbrains.kotlin:kotlin-test-common:$kotlinVersion")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-common:$kotlinVersion")
 }
 
 tasks.withType<Test> {

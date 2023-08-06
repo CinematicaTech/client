@@ -16,10 +16,10 @@ kotlin {
 }
 
 dependencies {
-    commonMainImplementation(libs.kotlinx.coroutines)
+    implementation(libs.kotlinx.coroutines)
 
-    commonMainImplementation(projects.feature.authorization.domain)
-    commonMainImplementation(projects.feature.authorization.presentation)
+    implementation(projects.feature.authorization.domain)
+    implementation(projects.feature.authorization.presentation)
 //    commonMainImplementation(projects.feature.authorization.data)
 //    commonMainImplementation(projects.feature.authorization.data.database)
 //

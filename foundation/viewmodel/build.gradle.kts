@@ -3,16 +3,8 @@ plugins {
 }
 
 kotlin {
-    jvm()
-    android()
-
-    sourceSets {
-        val jvmMain by getting
-        val androidMain by getting {
-            dependencies {
-                api(libs.androidx.lifecycle)
-            }
-        }
+    dependencies {
+        api(libs.androidx.lifecycle)
     }
 }
 

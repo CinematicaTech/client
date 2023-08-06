@@ -4,9 +4,8 @@ plugins {
 }
 
 dependencies {
-    // commonMainApi(libs.timemates.sdk)
-    commonMainImplementation(libs.kotlinx.coroutines)
-    commonMainApi(libs.kotlinx.datetime)
+    implementation(libs.kotlinx.coroutines)
+    api(libs.kotlinx.datetime)
 
 //    commonTestImplementation(projects.foundation.random)
 //    commonMainImplementation(projects.foundation.stdlibExt)

@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    commonMainImplementation(projects.localization)
+    implementation(projects.localization)
 }

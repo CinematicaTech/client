@@ -4,15 +4,15 @@ plugins {
 }
 
 dependencies {
-    commonMainApi(libs.decompose)
-    commonMainApi(libs.decompose.jetbrains.compose)
-    commonMainImplementation(libs.koin.core)
+    api(libs.decompose)
+    api(libs.decompose.jetbrains.compose)
+    implementation(libs.koin.core)
 
-    commonMainImplementation(projects.styleSystem)
+    implementation(projects.styleSystem)
     // commonMainImplementation(projects.foundation.mvi)
     // commonMainImplementation(projects.foundation.mvi.koinCompose)
 
-    commonMainImplementation(libs.kotlinx.coroutines)
+    implementation(libs.kotlinx.coroutines)
 
-    commonMainImplementation(projects.feature.authorization.presentation)
+    implementation(projects.feature.authorization.presentation)
 }

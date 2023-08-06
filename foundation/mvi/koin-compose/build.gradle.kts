@@ -17,12 +17,11 @@ kotlin {
 }
 
 dependencies {
-    commonMainImplementation(compose.ui)
-    commonMainImplementation(compose.runtime)
-    commonMainImplementation(libs.koin.core)
-    commonMainImplementation(libs.koin.compose)
-
-    commonMainImplementation(projects.foundation.mvi)
+    implementation(compose.ui)
+    implementation(compose.runtime)
+    implementation(libs.koin.core)
+    implementation(libs.koin.compose)
+    implementation(projects.foundation.mvi)
 }
 
 android {
