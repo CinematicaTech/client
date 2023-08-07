@@ -1,9 +1,9 @@
 package com.cinematica.feature.authorization.presentation.mvi
 
 import com.cinematica.foundation.mvi.Reducer
-import com.cinematica.feature.authorization.mvi.AuthorizationStateMachineAndroid.State
-import com.cinematica.feature.authorization.mvi.AuthorizationStateMachineAndroid.Event
-import com.cinematica.feature.authorization.mvi.AuthorizationStateMachineAndroid.Effect
+import com.cinematica.feature.authorization.mvi.AuthorizationStateMachine.State
+import com.cinematica.feature.authorization.mvi.AuthorizationStateMachine.Event
+import com.cinematica.feature.authorization.mvi.AuthorizationStateMachine.Effect
 import kotlinx.coroutines.CoroutineScope
 
 class AuthorizationReducer(

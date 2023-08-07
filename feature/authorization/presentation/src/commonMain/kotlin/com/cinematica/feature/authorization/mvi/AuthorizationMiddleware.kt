@@ -1,8 +1,8 @@
 package com.cinematica.feature.authorization.mvi
 
 import com.cinematica.foundation.mvi.Middleware
-import com.cinematica.feature.authorization.mvi.AuthorizationStateMachineAndroid.State
-import com.cinematica.feature.authorization.mvi.AuthorizationStateMachineAndroid.Effect
+import com.cinematica.feature.authorization.mvi.AuthorizationStateMachine.State
+import com.cinematica.feature.authorization.mvi.AuthorizationStateMachine.Effect
 import com.cinematica.foundation.mvi.StateStore
 
 class AuthorizationMiddleware : Middleware<State, Effect> {
@@ -20,8 +20,6 @@ class AuthorizationMiddleware : Middleware<State, Effect> {
      * @param store The state store containing the current state.
      */
     override fun onEffect(effect: Effect, store: StateStore<State>): State {
-        return when (effect) {
-            else -> store.state.value
-        }
+        return store.state.value
     }
 }

@@ -1,8 +1,8 @@
 package com.cinematica.feature.authorization.dependencies.screen
 
 import com.cinematica.feature.authorization.mvi.AuthorizationMiddleware
+import com.cinematica.feature.authorization.mvi.AuthorizationStateMachine
 import com.cinematica.feature.authorization.presentation.mvi.AuthorizationReducer
-import com.cinematica.feature.authorization.presentation.mvi.AuthorizationStateMachine
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import org.koin.core.annotation.Factory

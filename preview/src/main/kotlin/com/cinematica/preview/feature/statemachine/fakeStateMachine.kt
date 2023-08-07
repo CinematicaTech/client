@@ -1,10 +1,10 @@
-package com.timemates.app.preview.feature.statemachine
+package com.cinematica.preview.feature.statemachine
 
-import io.timemates.app.foundation.mvi.Reducer
-import io.timemates.app.foundation.mvi.StateMachine
-import io.timemates.app.foundation.mvi.UiEffect
-import io.timemates.app.foundation.mvi.UiEvent
-import io.timemates.app.foundation.mvi.UiState
+import com.cinematica.foundation.mvi.Reducer
+import com.cinematica.foundation.mvi.StateMachine
+import com.cinematica.foundation.mvi.UiEffect
+import com.cinematica.foundation.mvi.UiEvent
+import com.cinematica.foundation.mvi.UiState
 
 internal fun <TState : UiState, TEvent : UiEvent, TEffect : UiEffect> fakeStateMachine(
     state: TState,

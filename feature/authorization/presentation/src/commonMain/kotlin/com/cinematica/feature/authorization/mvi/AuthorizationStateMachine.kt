@@ -4,13 +4,13 @@ import androidx.compose.runtime.Immutable
 import com.cinematica.foundation.mvi.UiEffect
 import com.cinematica.foundation.mvi.UiEvent
 import com.cinematica.foundation.mvi.UiState
-import com.cinematica.feature.authorization.mvi.AuthorizationStateMachineAndroid.State
-import com.cinematica.feature.authorization.mvi.AuthorizationStateMachineAndroid.Event
-import com.cinematica.feature.authorization.mvi.AuthorizationStateMachineAndroid.Effect
+import com.cinematica.feature.authorization.mvi.AuthorizationStateMachine.State
+import com.cinematica.feature.authorization.mvi.AuthorizationStateMachine.Event
+import com.cinematica.feature.authorization.mvi.AuthorizationStateMachine.Effect
 import com.cinematica.feature.authorization.presentation.mvi.AuthorizationReducer
 import com.cinematica.foundation.mvi.StateMachine
 
-class AuthorizationStateMachineAndroid(
+class AuthorizationStateMachine(
     reducer: AuthorizationReducer,
     middleware: AuthorizationMiddleware,
 ): StateMachine<State, Event, Effect>(reducer, middlewares = listOf(middleware)) {
@@ -25,12 +25,12 @@ class AuthorizationStateMachineAndroid(
     sealed class Event : UiEvent {
         data class EmailChange(val email: String) : Event()
 
-        data object OnStartClick : Event()
+        object OnStartClick : Event()
     }
 
     sealed class Effect : UiEffect {
         data class Failure(val throwable: Throwable) : Effect()
 
-        data object NavigateToWatching : Effect()
+        object NavigateToWatching : Effect()
     }
 }
