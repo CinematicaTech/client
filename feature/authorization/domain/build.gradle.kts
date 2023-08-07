@@ -4,10 +4,10 @@ plugins {
 }
 
 dependencies {
-    implementation(libs.kotlinx.coroutines)
-    api(libs.kotlinx.datetime)
+    commonMainImplementation(libs.kotlinx.coroutines)
+    commonMainApi(libs.kotlinx.datetime)
 
-//    commonTestImplementation(projects.foundation.random)
-//    commonMainImplementation(projects.foundation.stdlibExt)
-//    commonMainApi(projects.foundation.validation)
+    commonTestImplementation(projects.foundation.random)
+    commonMainImplementation(projects.foundation.stdlibExt)
+    commonMainApi(projects.foundation.validation)
 }

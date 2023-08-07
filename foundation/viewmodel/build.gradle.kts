@@ -3,8 +3,16 @@ plugins {
 }
 
 kotlin {
-    dependencies {
-        api(libs.androidx.lifecycle)
+    jvm()
+    android()
+
+    sourceSets {
+        val jvmMain by getting
+        val androidMain by getting {
+            dependencies {
+                api(libs.androidx.lifecycle)
+            }
+        }
     }
 }
 
@@ -15,7 +23,7 @@ android {
         minSdk = libs.versions.android.min.get().toInt()
     }
 
-    namespace = "com.cinematica.foundation.viewmodel"
+    namespace = "io.timemates.androidx.viewmodel"
 }
 
 dependencies {

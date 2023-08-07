@@ -44,9 +44,15 @@ include(
 )
 
 include(
-    ":foundation:viewmodel",
     ":foundation:mvi",
     ":foundation:mvi:koin-compose",
+    ":foundation:viewmodel",
+    ":foundation:random",
+    ":foundation:validation",
+    ":foundation:stdlib-ext",
+    ":foundation:system-tray",
+    ":foundation:shimmer-compose",
+    ":foundation:time",
 )
 
 include(

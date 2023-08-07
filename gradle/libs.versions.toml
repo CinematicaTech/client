@@ -72,10 +72,6 @@ compose-accompanist-systemUiController = { module = "com.google.accompanist:acco
 
 androidx-lifecycle = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.require = "2.6.1" }
 
-timemates-sdk = { module = "io.timemates:sdk", version.ref = "timeMatesSdk" }
-timemates-engine-grpc = { module = "io.timemates:grpc-engine", version.ref = "timeMatesSdk" }
-timemates-engine-grpc-android = { module = "io.timemates:grpc-engine-android", version.ref = "timeMatesSdk" }
-
 koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 koin-annotations = { module = "io.insert-koin:koin-annotations", version.ref = "koin-annotations" }
 koin-ksp-compiler = { module = "io.insert-koin:koin-ksp-compiler", version.ref = "koin-annotations" }

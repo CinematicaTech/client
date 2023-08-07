@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    implementation(projects.feature.authorization.domain)
+    commonMainImplementation(projects.feature.authorization.domain)
 }

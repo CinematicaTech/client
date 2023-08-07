@@ -22,10 +22,11 @@ android {
 }
 
 dependencies {
-    api(compose.ui)
-    api(compose.foundation)
-    api(compose.runtime)
-    api(compose.material3)
-    api(compose.materialIconsExtended)
-    api(compose.uiTooling)
+    commonMainApi(compose.ui)
+    commonMainApi(compose.foundation)
+    commonMainApi(compose.runtime)
+    commonMainApi(compose.material3)
+    commonMainApi(compose.materialIconsExtended)
+    commonMainApi(compose.uiTooling)
 }
+

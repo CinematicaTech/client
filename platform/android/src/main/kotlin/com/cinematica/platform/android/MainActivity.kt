@@ -6,8 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
@@ -15,9 +13,9 @@ import androidx.compose.ui.Modifier
 import com.arkivanov.decompose.defaultComponentContext
 import com.arkivanov.decompose.router.stack.StackNavigation
 import com.arkivanov.decompose.router.stack.pop
-import com.cinematica.navigation.android.CinematicaAndroidAppEntry
-import com.cinematica.navigation.common.LocalComponentContext
-import com.cinematica.navigation.common.Screen
+import com.cinematica.navigation.CinematicaAppEntry
+import com.cinematica.navigation.LocalComponentContext
+import com.cinematica.navigation.Screen
 import com.cinematica.style.system.theme.AppTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
@@ -43,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                     Box(modifier = Modifier.fillMaxSize()) {
                         systemUiController.setSystemBarsColor(AppTheme.colors.background)
 
-                        CinematicaAndroidAppEntry(
+                        CinematicaAppEntry(
                             navigation = navigation,
                             navigateToAuthorization = CinematicaApplication.AUTH_FAILED_CHANNEL,
                         )

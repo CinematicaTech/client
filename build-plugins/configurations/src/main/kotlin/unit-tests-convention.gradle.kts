@@ -3,7 +3,7 @@ plugins {
 }
 
 val kotlinVersion = KotlinVersion.CURRENT.toString()
-val coroutinesVersion = "1.7.2"
+val coroutinesVersion = "1.7.1"
 
 kotlin {
     sourceSets {
@@ -17,7 +17,7 @@ kotlin {
 }
 
 dependencies {
-    testImplementation("org.jetbrains.kotlin:kotlin-test-common:$kotlinVersion")
+    commonTestImplementation("org.jetbrains.kotlin:kotlin-test-common:$kotlinVersion")
 }
 
 tasks.withType<Test> {

@@ -9,6 +9,6 @@ kotlin {
 }
 
 dependencies {
-    api(projects.foundation.viewmodel)
-    implementation(libs.kotlinx.coroutines)
+    commonMainApi(projects.foundation.viewmodel)
+    commonMainImplementation(libs.kotlinx.coroutines)
 }

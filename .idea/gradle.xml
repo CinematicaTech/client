@@ -30,6 +30,12 @@
             <option value="$PROJECT_DIR$/foundation" />
             <option value="$PROJECT_DIR$/foundation/mvi" />
             <option value="$PROJECT_DIR$/foundation/mvi/koin-compose" />
+            <option value="$PROJECT_DIR$/foundation/random" />
+            <option value="$PROJECT_DIR$/foundation/shimmer-compose" />
+            <option value="$PROJECT_DIR$/foundation/stdlib-ext" />
+            <option value="$PROJECT_DIR$/foundation/system-tray" />
+            <option value="$PROJECT_DIR$/foundation/time" />
+            <option value="$PROJECT_DIR$/foundation/validation" />
             <option value="$PROJECT_DIR$/foundation/viewmodel" />
             <option value="$PROJECT_DIR$/localization" />
             <option value="$PROJECT_DIR$/localization/compose" />

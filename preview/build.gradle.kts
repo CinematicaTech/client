@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.cinematica.preview"
+    namespace = "com.cinematica.preview.common"
     compileSdk = 34
 
     defaultConfig {
