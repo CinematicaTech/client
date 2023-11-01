@@ -45,6 +45,7 @@ dependencies {
     implementation(libs.androidx.compose.material3)
 
     implementation(libs.android.multidex)
+    implementation(libs.grpc.android)
 
     implementation(libs.decompose)
     implementation(libs.decompose.jetbrains.compose)
@@ -53,4 +54,8 @@ dependencies {
 
     implementation(projects.styleSystem)
     implementation(projects.navigation)
+
+    implementation("com.cinematica.sdk:core:0.0.1")
+    implementation("com.cinematica.sdk:grpc-android:0.0.1")
+    implementation("com.cinematica.sdk:grpc:0.0.1")
 }

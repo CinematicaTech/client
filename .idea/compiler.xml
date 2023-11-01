@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="11">
+    <bytecodeTargetLevel target="19">
       <module name="Cinematica.commonMain" target="19" />
+      <module name="Cinematica.feature.authorization.data" target="19" />
+      <module name="Cinematica.feature.authorization.domain" target="19" />
+      <module name="Cinematica.feature.authorization.presentation" target="19" />
       <module name="Cinematica.feature.common.domain" target="19" />
       <module name="Cinematica.feature.common.presentation" target="19" />
+      <module name="Cinematica.foundation.mvi" target="19" />
+      <module name="Cinematica.foundation.mvi.koin-compose" target="19" />
+      <module name="Cinematica.foundation.random" target="19" />
+      <module name="Cinematica.foundation.shimmer-compose" target="19" />
+      <module name="Cinematica.foundation.stdlib-ext" target="19" />
+      <module name="Cinematica.foundation.system-tray" target="19" />
+      <module name="Cinematica.foundation.system-tray.main" target="19" />
+      <module name="Cinematica.foundation.system-tray.test" target="19" />
+      <module name="Cinematica.foundation.time" target="19" />
+      <module name="Cinematica.foundation.validation" target="19" />
+      <module name="Cinematica.foundation.viewmodel" target="19" />
       <module name="Cinematica.preview.feature" target="19" />
       <module name="Cinematica.preview.style-system" target="19" />
     </bytecodeTargetLevel>

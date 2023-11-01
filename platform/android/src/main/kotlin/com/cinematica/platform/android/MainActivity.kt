@@ -13,9 +13,9 @@ import androidx.compose.ui.Modifier
 import com.arkivanov.decompose.defaultComponentContext
 import com.arkivanov.decompose.router.stack.StackNavigation
 import com.arkivanov.decompose.router.stack.pop
-import com.cinematica.navigation.CinematicaAppEntry
-import com.cinematica.navigation.LocalComponentContext
-import com.cinematica.navigation.Screen
+import com.cinematica.app.navigation.CinematicaAppEntry
+import com.cinematica.app.navigation.LocalComponentContext
+import com.cinematica.app.navigation.Screen
 import com.cinematica.style.system.theme.AppTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val componentContent = defaultComponentContext()
-
         setContent {
             val systemUiController = rememberSystemUiController()
             val navigation: StackNavigation<Screen> = remember { StackNavigation() }

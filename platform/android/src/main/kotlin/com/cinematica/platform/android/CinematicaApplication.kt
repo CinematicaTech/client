@@ -14,35 +14,5 @@ class CinematicaApplication : Application() {
     override fun attachBaseContext(base: Context) {
         super.attachBaseContext(base)
         MultiDex.install(this)
-
-//        startKoin {
-//            val platformModule = module {
-//                single<TimeMatesRequestsEngine> {
-//                    GrpcTimeMatesRequestsEngine(
-//                        grpcEngineBuilder = AndroidGrpcEngineBuilder(applicationContext)
-//                    )
-//                }
-//
-//                single<OnAuthorizationFailedHandler> {
-//                    OnAuthorizationFailedHandler { exception ->
-//                        exception.printStackTrace()
-//                        AUTH_FAILED_CHANNEL.trySend(Unit)
-//                    }
-//                }
-//
-//                single<SqlDriver>(qualifier = qualifier("authorization")) {
-//                    AndroidSqliteDriver(TimeMatesAuthorizations.Schema, applicationContext)
-//                }
-//            }
-//
-//            modules(
-//                platformModule,
-//                AuthorizationDataModule().module,
-//                ConfirmAuthorizationModule().module,
-//                StartAuthorizationModule().module,
-//                AfterStartModule().module,
-//                NewAccountInfoModule().module,
-//                ConfigureAccountModule().module,
-//            )
-        }
+    }
 }

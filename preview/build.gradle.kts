@@ -39,6 +39,4 @@ dependencies {
 
     implementation(projects.localization)
     implementation(projects.localization.compose)
-
-    implementation(projects.feature.authorization.presentation)
 }
