@@ -55,7 +55,6 @@ dependencies {
     implementation(projects.styleSystem)
     implementation(projects.navigation)
 
-    implementation("com.cinematica.sdk:core:0.0.1")
-    implementation("com.cinematica.sdk:grpc-android:0.0.1")
-    implementation("com.cinematica.sdk:grpc:0.0.1")
+    implementation(libs.cinematica.core)
+    implementation(libs.cinematica.grpc.engine)
 }
